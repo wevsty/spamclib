@@ -5,8 +5,8 @@
 A SPAMC protocol library.Help you use SpamAssassin's SPAMD service.
 
 # Feature support
-> * Support sync client.
-> * Support async client.
+> * Support sync spamd client.
+> * Support async spamd client.
 > * Support TLS.
 
 # Example
@@ -131,5 +131,4 @@ if __name__ == '__main__':
 MIT License
 
 # Thanks
-Part of the project reference [aiospamc](https://github.com/mjcaley/aiospamc)
-Thanks mjcaley
+Part of the project reference [aiospamc](https://github.com/mjcaley/aiospamc) Thanks mjcaley.
