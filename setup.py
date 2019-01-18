@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name='spamclib',
-    version='0.0.2',
+    version='0.0.3',
 
     description='A SPAMC protocol library.'
                 'Help you use SpamAssassin\'s SPAMD service.',
