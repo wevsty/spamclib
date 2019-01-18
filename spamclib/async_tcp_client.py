@@ -47,7 +47,7 @@ class AsyncTcpClient:
             self.logger.exception('Cannot connecting to %s:%s: %s',
                                   self.host,
                                   self.port,
-                                  raised)
+                                  error)
             raise error
         return None
 

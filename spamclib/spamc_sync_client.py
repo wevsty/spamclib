@@ -3,8 +3,8 @@
 
 import socket
 import ssl
-from sync_tcp_client import SyncTcpClient
-from spamc_protocol import SpamcProtocol
+from .sync_tcp_client import SyncTcpClient
+from .spamc_protocol import SpamcProtocol
 
 
 class SyncSpamcClient(SyncTcpClient):

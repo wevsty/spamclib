@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from type_convert import anything_to_string
-from type_convert import anything_to_bytes
+from .type_convert import anything_to_string
+from .type_convert import anything_to_bytes
 
 
 class SpamcHeader(object):

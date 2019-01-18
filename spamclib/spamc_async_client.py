@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from async_tcp_client import AsyncTcpClient
-from spamc_protocol import SpamcProtocol
+from .async_tcp_client import AsyncTcpClient
+from .spamc_protocol import SpamcProtocol
 
 
 class AsyncSpamcClient(AsyncTcpClient):

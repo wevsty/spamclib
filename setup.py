@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name='spamclib',
-    version='0.0.1',
+    version='0.0.2',
 
     description='A SPAMC protocol library.'
                 'Help you use SpamAssassin\'s SPAMD service.',
@@ -45,8 +45,7 @@ setup(
 
     keywords='spam spamc spamd spamassassin',
 
-    packages=find_packages('source'),
-    package_dir={'': 'source'},
+    packages=find_packages(),
 
     python_requires='>=3.6',
     install_requires=[],

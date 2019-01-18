@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from type_convert import anything_to_string
-from type_convert import anything_to_bytes
+from .type_convert import anything_to_string
+from .type_convert import anything_to_bytes
 
-from spamc_header import SpamcHeader
-from spamc_body import SpamcBody
+from .spamc_header import SpamcHeader
+from .spamc_body import SpamcBody
 
 
 class SpamcProtocol(SpamcHeader, SpamcBody):
