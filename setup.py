@@ -40,6 +40,7 @@ setup(
         'License :: OSI Approved :: MIT License',
 
         'Topic :: Communications :: Email :: Filters',
+        'Topic :: Software Development :: Libraries'
     ],
 
     keywords='spam spamc spamd spamassassin',
